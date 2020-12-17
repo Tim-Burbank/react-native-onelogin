@@ -1,0 +1,26 @@
+{
+  "name": "react-native-onelogin",
+  "version": "1.0.0",
+  "description": "The react native version of onelogin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "contributors": [],
+  "license": "ISC",
+  "rnpm": {
+    "android": {
+      "packageInstance": "new OneLoginPackage()"
+    },
+    "ios": {
+      "sharedLibraries": []
+    }
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.52.22"
+  }
+}
